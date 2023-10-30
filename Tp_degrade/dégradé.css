@@ -1,0 +1,31 @@
+.color{
+      background-image:linear-gradient(to left bottom, red,green,blue);
+      
+      
+
+}
+
+div,p {
+    height:200px;
+    width:200px;
+    border:2px solid black;
+
+}
+
+.color1{
+    background-image: linear-gradient(-70deg, yellow, purple 25%);
+}
+
+.pastel{
+    background-image: radial-gradient(circle at center, pink, lightblue)
+    
+}
+
+.circle{
+    background-image: repeating-radial-gradient(white, black 10px);
+}
+
+.circle:hover{
+    background-image: repeating-radial-gradient(black, white 10px)
+    
+}

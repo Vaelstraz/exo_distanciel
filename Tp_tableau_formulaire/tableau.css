@@ -1,0 +1,31 @@
+
+td {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
+   }
+
+th{
+    background-color: #add8e6 ;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+
+
+caption{
+    color: fuchsia;
+}
+
+table{
+    border-style: solid;
+    border-width: 2px;
+    border: fuchsia;
+    border-collapse: collapse;
+}
+
+
+
+

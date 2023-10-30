@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="formulaire.css">
+        <title> Formulaires</title>
+    </head>
+
+    <body>
+        <form method="POST" action="formulaire.html">
+            <fieldset>
+                <p> Vos informations:</p>
+            <label for="prenom"> Prenom:</label>
+            <input type="text" name="prenom" placeholder="Entrez un nom" maxlenght="20" id="prenom"/>
+           <div class="nom"> <label for="Nom"> Nom:</label>
+            <input type="text" name="Nom" placeholder="Entrez votre Nom" maxlength="20" id="nom"/></div>
+            <div class="Email"> <label for="Email"> Email:</label>
+                <input type="text" name="email" placeholder="Votre adresse mail" maxlength="20" id="email">
+            </div>
+            <div class="numero"> <label for="numero"> Numero:</label>
+                <input type="text" name="numero" placeholder="Ex: 06 00 00 00 00" maxlength="20" id="numero">
+            <div class="password"> <label for="password">Password:</label>
+            <input type="text" name="password" placeholder="Passw0r6" maxlength="20" id="pasword"></div>
+            <div class="age"><label for="age">Age:</label>
+            <input type="number" name="age" placeholder="Ex: 18" maxlength="20" id="age"></div>
+
+            <div class="comments"> <label for="commentaire"> Votre commentaire:</label>
+             <textarea placeholder="Le commentaire de votre choix."></textarea>
+            </div>
+
+            <div class="date"> <label for="date">Date de mon commentaire:</label>
+            <input type="date">
+        </div>
+        
+        <div class="fichier"><label for="fichier"> Choisir un fichier</label>
+        <input type="file" accept=".png, .jpg, .gif"/>
+    </div>
+    </fieldset>
+
+    <fieldset>
+        <p> Vous préfèrez:</p>
+        <div class="radio1"><input type="radio" id="radio1" name="radio" value="radio1"/><label for="radio1"> Le HTML</label></div>
+        <div class="radio2"><input type="radio" id="radio2" name="radio" value="radio2"/><label for="radio2">Le CSS</label></div>
+        <div class="radio3"><input type="radio" id="radio3" name="radio" value="radio3"/><label for="radio3">Le JavaScript</label></div>
+        <div class="radio4"><input type="radio" id="radio4" name="radio" value="radio4"/><label for="radio4">Ne rien faire</label></div>
+    </fieldset>
+
+    <fieldset>
+        <p>Vous vous levez:</p>
+        <div class="radio5"><input type="radio" id="radio5" name="radio" value="radio5"><label for="radio5">Le matin</label></div>
+        <div class="radio6"><input type="radio" id="radio6" name="radio" value="radio6"><label for="radio6">Le midi</label></div>
+        <div class="radio7"><input type="radio" id="radio7" name="radio" value="radio7"><label for="radio7">Le soir </label></div>
+        <div class="radio8"><input type="radio" id="radio8" name="radio" value="radio8"><label for="radio8">En retard</label></div>
+
+    </fieldset>
+
+    <fieldset>
+        <p>Fin du formulaire</p>
+        <div class="plus"
+    </fieldset>
+ </form>
+
+
+        
+    </body>
+</html>
