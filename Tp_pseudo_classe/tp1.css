@@ -15,4 +15,18 @@ image :hover{
     display:none;
 }
     
+a:link{
+    color: orange;
+}
 
+a:visited{
+    color:lightgrey;
+}
+
+p:active{
+    background-color: grey;
+}
+
+img:hover{
+    display: none;
+}
