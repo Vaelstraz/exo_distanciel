@@ -1,6 +1,7 @@
 h1{
     color:red;
     font-size: 35px;
+    text-align: center;
 }
 
 h3{
@@ -9,7 +10,7 @@ h3{
 
 }
 
-.Premier,.deuxième{
+.Premier,.deuxieme{
     background-color: grey;
 }
 
@@ -22,11 +23,12 @@ em{
 
 strong{
     font-weight: normal;
+    color: yellowgreen;
     
 }
 
-.Troisième {
-    background-color: pink;
+.wron{
+    background-color:#F08080  ;
 }
 
 .Titre {
