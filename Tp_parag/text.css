@@ -1,0 +1,34 @@
+.par1, .par2, .par3{
+    background-color: rgb(168, 168, 168); 
+    border: 2px solid green;
+}
+
+.par1{
+    height: 100px;
+     margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+    
+}
+
+.par2{
+    width: 50%;
+    margin: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.par3{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(138, 87, 187);
+}
