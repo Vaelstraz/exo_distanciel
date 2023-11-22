@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <!--<nav>
+                <ul>
+                    <li>Accueil</li>
+                    <li>Connexion</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>-->
+        </header>
+        <form method="POST" action="monProgramme.php">
+
+                <h2>Nous contacter </h2>
+                <h3>Vous avez une question ou vous souhaitez obtenir une information ?</h3>
+                <div>
+                    <label for="nom">Nom: <span class="blue">*</span></label>
+                    <input type="texte" name="nom" required placeholder="Entrez un nom" maxlength="20" minlength="2"/>
+                </div>
+                <div>
+                    <label for="prenom">Prénom: <span class="blue">*</span></label>
+                    <input type="texte" name="prenom" required placeholder="Entrez un prénom" maxlength="20" minlength="2"/>
+                </div>
+                <div>
+                    <label for="email">E-mail: <span class="blue">*</span></label>
+                    <input type="email" name="email" required placeholder="Entrez un email"/>
+                </div>
+                <div>
+                    <label for="numero">Téléphone: <span class="blue">*</span></label>
+                    <input type="tel" name="numero" required placeholder="Entrez un numéro de téléphone"/>
+                </div>
+                <label for="liste">Votre type de voyage:</label>
+                <select name="liste">
+                    
+                        <option value="option1" checked>Sélectionnez un type de voyage</option>
+                        <option value="option2">Séjour</option>
+                        <option value="option3">Circuit</option>
+                        <option value="option4">Hotel</option>
+                        <option value="option5">Vol</option>
+                        <option value="option6">Croisière</option>
+                        <option value="option7">Vol + Hotel</option>
+                        <option value="option8">Location</option>
+                        <option value="option9">Autre</option>
+                </select>
+                <div>
+                    <label for="texte">Votre message:<span class="blue">*</span></label>
+                </div>
+                <div>
+                    <textarea cols="70" rows="10" required placeholder="Entrez votre message"></textarea>
+                </div>
+
+                <div>
+                    <label for="photo"> Ajoutez un fichier:</label>
+                    <input type="file" name="photo" accept=".png, .jpg, .gif" />
+                </div>
+                <div>   
+                    <p class="blue"><strong>* Ces informations sont requises</strong></p>
+                </div>
+                <div>
+                    <input id="contact-form" class ="button1" type="submit" value="Envoyer"/>
+                    <input class="button1" type="reset" value="Reset"/>
+                </div>
+               
+                
+            </fieldset>
+        </form>
+        
+    </body>
+    </html>

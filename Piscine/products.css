@@ -1,0 +1,85 @@
+body {
+    margin-left: 30px;
+    background: linear-gradient(skyblue, lightblue);
+}
+
+h1 {
+    color: darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rowValise{
+    display: flex;
+    gap: 20px;
+}
+
+.blockValise{
+    width: 200px;
+}
+
+.valise1{
+    margin-bottom: 50px;
+    display: block;
+}
+
+.columnSejour{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+img {
+    border: solid grey 1px;
+    border-radius: 2%;
+}
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+.photo_valise_globetrotter {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    justify-content: left;
+}
+
+.blockSejour {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 3px;
+    flex-direction: column;
+    padding: 20px;
+}
+.destination_londres {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.destination_sydney {
+    display: flex;
+    flex-wrap: wrap;
+}
+.paragrapheLondres {
+    display: flex;
+    align-items: center;
+}
+
+.paragrapheSydney {
+    display: flex;
+    align-items: center;
+}
+
+
+.photo_londres, .photo_sydney {
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: left;
+}
+
+
+p {
+    text-align: right;
+}
