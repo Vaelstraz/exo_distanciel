@@ -19,6 +19,7 @@ div,p {
 .pastel{
     background-image: radial-gradient(circle at center, pink, lightblue)
     
+    
 }
 
 .circle{
@@ -28,4 +29,8 @@ div,p {
 .circle:hover{
     background-image: repeating-radial-gradient(black, white 10px)
     
+}
+
+p{
+    background-image:linear-gradient(to top, grey, white 50% )
 }
